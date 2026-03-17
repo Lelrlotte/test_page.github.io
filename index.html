@@ -9,9 +9,10 @@
 <body>
     <header>
         <div class="logo">SAMPLE Corp.</div>
-        <nav>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <nav id="nav-menu">
             <ul>
-                <li><a href="index.html" class="active">ホーム</a></li>
+                <li><a href="index.html">ホーム</a></li>
                 <li><a href="services.html">サービス</a></li>
                 <li><a href="about.html">会社概要</a></li>
                 <li><a href="contact.html">お問い合わせ</a></li>
@@ -34,4 +35,11 @@
         <p>&copy; 2026 SAMPLE Corp.</p>
     </footer>
 </body>
+<script>
+    // スマホ用メニューの開閉関数
+    function toggleMenu() {
+        const menu = document.getElementById('nav-menu');
+        menu.classList.toggle('open');
+    }
+</script>
 </html>

@@ -1,0 +1,20 @@
+#SelectOne {
+  height: 20px;
+}
+
+#ul1 {
+  display: flex;
+  list-style: none;
+}
+.wide-list-style{
+  width: 50px;
+}
+.in-list{
+  list-style: none;
+}
+.wmenu > ul > li > .menu-bg {
+  display: none;
+}
+.show-bar .menu-bg {
+  display: block !important;
+}
